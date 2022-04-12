@@ -1,0 +1,112 @@
+#mypic {
+width: 250;
+border-radius: 75%;
+}
+#insta-radius {
+
+border-radius: 25%;
+
+}
+
+
+.sides {
+
+place-items: right;
+
+
+
+}
+
+
+
+#pic-border {
+
+  border-radius: 10%;
+
+}
+
+
+body {
+    
+ 
+     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
+}
+
+
+@keyframes dayCycle {
+  0% {background-color: white;}
+  25% {background-color: #FAD6A5;}
+  50% {background-color: #323639;}
+  75% {background-color: #87CEEB;}
+  100% {background-color: white;}
+}
+
+@keyframes titleCycle {
+  0% {color: white;}
+  25% {color: black;}
+  50% {color: black;}
+}
+
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background: transparent;
+  overflow: hidden;
+  user-select: none;
+
+ 
+    overflow: scroll;
+  }
+  
+  div.ex2 {
+    overflow: hidden;
+  }
+  
+  div.ex3 {
+    overflow: auto;
+  }
+  
+  div.ex4 {
+    overflow: clip;
+  }
+  
+  div.ex5 {
+    overflow: visible;
+  }
+
+
+
+
+
+body {
+  animation: dayCycle 20s infinite;
+  animation-timing-function: ease-in-out;
+  display: flex;
+  flex-direction: column;
+ 
+  align-items: center;
+}
+
+
+
+#specialstyle 
+
+a{
+  
+  height: 20px;
+  margin: 40px 20px;
+  line-height: 180px;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  float: left;
+    -webkit-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
+}
+
+.nextpage{
+
+text-align: right;
+}
